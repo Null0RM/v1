@@ -4,11 +4,17 @@
 
 # ⛓️ Blockchain
 
-| a public database that is updated and shared across many computers in a network                                                                                                                                                                                                                                                                                                                                                                                                                                  | [https://ethereum.org/en/developers/docs/intro-to-ethereum/#what-is-a-blockchain](https://ethereum.org/en/developers/docs/intro-to-ethereum/#what-is-a-blockchain) |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| A database of transactions, duplicated and shared on all computers in the network, ensuring data cannot be altered retroactively.                                                                                                                                                                                                                                                                                                                                                                                | [https://ethereum.org/en/glossary/#blockchain](https://ethereum.org/en/glossary/#blockchain)                                                                       |
-| A blockchain is a database of transactions that is updated and shared across many computers in a network. Every time a new set of transactions is added, its called a “block” - hence the name blockchain. Public blockchains like Ethereum allow anyone to add, but not remove, data. If someone wanted to alter any of the information or cheat the system, they’d need to do so on the majority of computers on the network. That is a lot! This makes decentralized blockchains like Ethereum highly secure. | [https://ethereum.org/en/what-is-ethereum/](https://ethereum.org/en/what-is-ethereum/)                                                                             |
-| a cryptographically secured, time-stamped, public and distributed database of every [https://bitcoinwiki.org/wiki/bitcoin](https://bitcoinwiki.org/wiki/bitcoin) [https://bitcoinwiki.org/wiki/transaction](https://bitcoinwiki.org/wiki/transaction) that has ever occurred on the network.                                                                                                                                                                                                                     |                                                                                                                                                                    |
+- a public database that is updated and shared across many computers in a network
+- [intro-to-ethereum/#what-is-a-blockchain](https://ethereum.org/en/developers/docs/intro-to-ethereum/#what-is-a-blockchain)
+- A database of transactions, duplicated and shared on all computers in the network, ensuring data cannot be altered retroactively.
+- [glossary/#blockchain](https://ethereum.org/en/glossary/#blockchain)
+
+A blockchain is a database of transactions that is updated and shared across many computers in a network. Every time a new set of transactions is added, its called a “block” - hence the name blockchain. Public blockchains like Ethereum allow anyone to add, but not remove, data. If someone wanted to alter any of the information or cheat the system, they’d need to do so on the majority of computers on the network. That is a lot! This makes decentralized blockchains like Ethereum highly secure.
+
+[https://ethereum.org/en/what-is-ethereum/](https://ethereum.org/en/what-is-ethereum/)
+
+a cryptographically secured, time-stamped, public and distributed database of every
+[[transaction]] that has ever occurred on the network.
 
 “Distributed” here means that the information in the blockchain is broadcast to and recorded by every node in the network. There is no one central database. Any user can refer to this list of transactions and check exactly what how many bitcoins have ever belonged to any specific [https://bitcoinwiki.org/wiki/bitcoin-address](https://bitcoinwiki.org/wiki/bitcoin-address) at any point in time. This way the system is transparent, double-spending is prevented, and there is no need for a trusted central authority.
 
@@ -18,10 +24,11 @@ The bitcoin blockchain is supported by the efforts of many miners: users who put
 
 - An electronic device, online service, or software program that allows one party to make electronic transactions with another party bartering digital currency units for goods and services.
 
-| A digital wallet, also known as an e-wallet or mobile wallet, is an electronic device, online service, or software program that allows one party to make electronic transactions with another party bartering digital currency units for goods and services.
+- A digital wallet, also known as an e-wallet or mobile wallet, is an electronic device, online service, or software program that allows one party to make electronic transactions with another party bartering digital currency units for goods and services.
 
-| Money can be deposited in the digital wallet prior to any transactions or, in other cases, an individual's bank account can be linked to the digital wallet. | [https://en.wikipedia.org/wiki/Digital_wallet](https://en.wikipedia.org/wiki/Digital_wallet) |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
+[https://en.wikipedia.org/wiki/Digital_wallet](https://en.wikipedia.org/wiki/Digital_wallet)
+
+- Money can be deposited in the digital wallet prior to any transactions or, in other cases, an individual's bank account can be linked to the digital wallet.
 
 ## Network
 
@@ -49,8 +56,9 @@ Distributed Ledger
 
 | A distributed ledger (also called a shared ledger or distributed ledger technology or DLT) is a system whereby replicated, shared, and synchronized digital data is geographically spread (distributed) across many sites, countries, or institutions.
 
-| In contrast to a centralized database, a distributed ledger does not require a central administrator, and consequently does not have a single (central) point-of-failure. | [https://en.wikipedia.org/wiki/Distributed_ledger](https://en.wikipedia.org/wiki/Distributed_ledger) |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+[https://en.wikipedia.org/wiki/Distributed_ledger](https://en.wikipedia.org/wiki/Distributed_ledger)
+
+In contrast to a centralized database, a distributed ledger does not require a central administrator, and consequently does not have a single (central) point-of-failure.
 
 ---
 
@@ -62,3 +70,10 @@ https://ethereum.org/en/learn/
 
 Youtube
 https://www.youtube.com/channel/UCJae_agpt9S3qwWNED0KHcQ
+
+https://ethereum.org/en/glossary/#blockchain
+https://bitcoinwiki.org/wiki/blockchain
+
+- 탈중앙화를 지향하는 공개 분산 원장 시스템
+- ‘FLP Impossibility’ 이슈로 모든 구현체는 Safety(결정론적 동작; 합의 결과 불변) 또는 Liveness(비동기적 동작; 발생된 모든 상태 변화의 유한 시간 내 합의) 중 일부를 희생한 구조를
+  갖는다.

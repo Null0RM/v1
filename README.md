@@ -30,9 +30,9 @@ Invoke-Expression (Invoke-WebRequest -Uri "https://gist.githubusercontent.com/oo
 sh <(curl -s "https://gist.githubusercontent.com/ooMia/afbae4f3249609e0bf17e4b6c7baa696/raw/ada8812c56d056dc15f71fc6973bdf501ea0a6f0/get_github_avatar.sh")
 ```
 
-|                                                     Option #1: GitHub-Profile <br/> oomia                                                      |                                                       Option #2: Local-Profile <br/> mia                                                       |
-| :--------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------: |
-| [<img src="https://avatars.githubusercontent.com/u/96914905" height=150 width=150> <br/> @GitHub-Nickname](https://github.com/GitHub-Nickname) | [<img src="./embed/profile/nse-5354155414388309291-1000000474_1719950399348.png" height=150 width=150> <br/> @oomia](https://github.com/oomia) |
+|mia|
+| :-: |
+| [<img src="./embed/profile/mia.png" height=150 width=150> <br/> @oomia](https://github.com/oomia) |
 
 <br>
 
