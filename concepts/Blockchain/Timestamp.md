@@ -1,26 +1,36 @@
-# Decentralized/Trusted timestamping _(in Blockchain)_
+---
+title: Timestamp
+description: 블록체인에서 타임스탬프의 역할과 중요성을 다룹니다.
+aliases: [timestamp, blockchain timestamp]
+tags: [technology, blockchain, timestamp]
+date: 2024-07-22
+---
 
-| [Trusted timestamping]
+## Timestamp
 
-Trusted timestamping is the process of securely keeping track of the creation and modification time of a document. Security here means that no one—not even the owner of the document—should be able to change it once it has been recorded provided that the timestamper's integrity is never compromised.
+### Summary
 
-The administrative aspect involves setting up a publicly available, trusted timestamp management infrastructure to collect, process and renew timestamps.
+`Timestamp`는 블록체인에서 트랜잭션이 발생한 시간과 블록이 생성된 시간을 기록하여 블록의 순서와 무결성을 보장합니다.
 
-[Decentralized timestamping]
+### Description
 
-With the advent of cryptocurrencies like bitcoin, it has become possible to get some level of secure timestamp accuracy in a decentralized and tamper-proof manner. Digital data can be hashed and the hash can be incorporated into a transaction stored in the blockchain, which serves as evidence of the time at which that data existed.
+`Timestamp`는 블록체인에서 중요한 역할을 합니다. 이는 트랜잭션이 발생한 시간과 블록이 생성된 시간을 기록하여 블록의 순서와 무결성을 보장합니다. 각 블록에는 타임스탬프가 포함되어 있어, 블록체인 네트워크가 올바른 순서로 블록을 연결할 수 있도록 합니다.
 
-For proof of work blockchains, the security derives from the tremendous amount of computational effort performed after the hash was submitted to the blockchain. Tampering with the timestamp would require more computational resources than the rest of the network combined, and cannot be done unnoticed in an actively defended blockchain.
-[https://en.wikipedia.org/wiki/Trusted_timestamping#Decentralized_timestamping_on_the_blockchain](https://en.wikipedia.org/wiki/Trusted_timestamping#Decentralized_timestamping_on_the_blockchain)
+타임스탬프는 **신뢰성**과 **투명성**을 제공하며, 이를 통해 블록체인에서 **이중 지불**을 방지하고 트랜잭션의 유효성을 검증할 수 있습니다. 예를 들어, Bitcoin 블록체인에서는 각 블록의 헤더에 타임스탬프가 포함되며, 이는 블록이 생성된 시간을 나타냅니다. 이 타임스탬프는 Unix 타임 형식으로 저장됩니다.
 
-# Timestamp _(in Computer Science)_
+또한, 타임스탬프는 블록체인의 **투명성**을 강화하여 모든 트랜잭션이 기록된 시간과 순서를 명확히 할 수 있습니다. 이는 금융 거래, 데이터 무결성 확인, 스마트 계약 실행 등의 다양한 응용 사례에서 중요한 역할을 합니다.
 
-A timestamp is a sequence of characters or encoded information identifying when a certain event occurred, usually giving date and time of day, sometimes accurate to a small fraction of a second. Timestamps do not have to be based on some absolute notion of time, however. They can have any epoch, can be relative to any arbitrary time, such as the power-on time of a system, or to some arbitrary time in the past.
+### References
 
-[https://en.wikipedia.org/wiki/Timestamp](https://en.wikipedia.org/wiki/Timestamp)
+- [타임스탬프의 역할과 중요성](https://bitcoinwiki.org/wiki/Trusted_timestamping)
+- [Bitcoin 블록체인의 타임스탬프](https://www.investopedia.com/terms/b/block-bitcoin-block.asp)
+- [타임스탬프와 블록체인의 투명성](https://www.investopedia.com/news/what-genesis-block-bitcoin-terms/)
 
-In computing, timestamping refers to the use of an electronic timestamp to provide a temporal order among a set of events.
+### Related Keywords
 
-Timestamping techniques are used in a variety of computing fields, from network management and computer security to concurrency control.
-
-For instance, a heartbeat network uses timestamping to monitor the nodes on a high availability computer cluster | [https://en.wikipedia.org/wiki/Timestamping\_(computing)](<https://en.wikipedia.org/wiki/Timestamping_(computing)>) |
+- [[Blockchain]]
+- [[Block]]
+- [[Node]]
+- [[Merkle Tree]]
+- [[Bitcoin]]
+- [[Ethereum]]

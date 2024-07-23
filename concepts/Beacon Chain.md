@@ -318,5 +318,3 @@ Shanghai
 |0xFF|SELFDESTRUCT|System||
 https://github.com/ethereum/execution-specs/blob/master/lists/evm/pending-opcodes.md
 https://github.com/ethereum/execution-specs/blob/master/lists/evm/proposed-opcodes.md
-
-

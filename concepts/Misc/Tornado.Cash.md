@@ -1,6 +1,37 @@
-[https://docs.tornado.ws](https://docs.tornado.ws/)
+---
+title: Tornado.Cash
+description: Tornado.Cash의 개념, 작동 원리, 및 기술적 구현을 다룹니다.
+aliases: [tornado.cash, tornado cash]
+tags: [misc, mixer, privacy, tornado.cash]
+date: 2024-07-22
+---
 
-- a **non-custodial** **privacy protocol** allowing **permissionless** shielded transactions on Ethereum and derivative networks. **Tornado Cash is not a mixer, as assets are never commingled due to the presence of zero knowledge cryptography**. The core of the protocol is ungovernable and immutable, given Ethereum's distributed state and the provenance of the contracts, they can neither be changed nor tampered with
-- achieves anonymity by breaking the on-chain link between source and destination addresses through "anonymity pools". These are immutable smart contracts that accepts fixed denominations of a currency, acting as what is known as a mix network. Although anonymity is only obtained with use of a "relayer", which acts as a withdrawal proxy to mask the link between destination and source addresses.
-- [_How does Tornado Cash work?_](https://docs.tornado.ws/general/how-does-it-work.html)
-- [Tips to remain anonymous](https://docs.tornado.ws/general/guides/opsec.html).
+## Tornado.Cash
+
+### Summary
+
+`Tornado.Cash`는 이더리움 기반의 프라이버시 강화 믹서입니다.
+
+### Description
+
+`Tornado.Cash`는 이더리움 기반의 프라이버시 강화 믹서로, 사용자의 거래 내역을 숨기기 위해 제로 지식 증명 기술을 사용합니다. Tornado.Cash는 사용자의 프라이버시를 보호하고, 거래의 익명성을 보장합니다.
+
+### 기술적 구현
+
+1. **제로 지식 증명**: Tornado.Cash는 제로 지식 증명 기술을 사용하여 사용자의 신원을 밝히지 않고 거래를 검증합니다.
+2. **이더리움 스마트 계약**: Tornado.Cash는 이더리움 스마트 계약을 통해 거래를 자동으로 처리하고, 사용자의 프라이버시를 보호합니다.
+3. **익명 출금**: Tornado.Cash는 사용자가 암호화폐를 출금할 때 새로운 주소로 전송하여 원래의 거래 내역을 숨깁니다.
+
+### References
+
+- [Tornado.Cash 설명](https://en.wikipedia.org/wiki/Tornado_Cash)
+- [Tornado.Cash의 작동 원리](https://www.investopedia.com/terms/t/tornado-cash.asp)
+- [Gemini의 Tornado.Cash 설명](https://www.gemini.com/cryptopedia/search?query=tornado-cash)
+
+### Related Keywords
+
+- [[Privacy]]
+- [[Security]]
+- [[Cryptocurrency]]
+- [[Blockchain]]
+- [[Mixer]]

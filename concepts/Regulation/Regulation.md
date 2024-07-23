@@ -1,35 +1,52 @@
-[https://en.wikipedia.org/wiki/Anti–money_laundering](https://en.wikipedia.org/wiki/Anti%E2%80%93money_laundering)
+---
+title: Regulation
+description: 암호화폐와 블록체인에 대한 규제 및 법률을 다룹니다.
+aliases: [regulation, 규제]
+tags: [regulation, law, compliance]
+date: 2024-07-22
+---
 
-[https://en.wikipedia.org/wiki/Know_your_customer](https://en.wikipedia.org/wiki/Know_your_customer)
+## Regulation
 
-[https://en.wikipedia.org/wiki/Central_bank_digital_currency](https://en.wikipedia.org/wiki/Central_bank_digital_currency)
+### Summary
 
-[https://en.wikipedia.org/wiki/Commodity_Futures_Trading_Commission](https://en.wikipedia.org/wiki/Commodity_Futures_Trading_Commission)
+암호화폐와 블록체인에 대한 규제 및 법률을 다룹니다.
 
-[https://en.wikipedia.org/wiki/U.S.\_Securities_and_Exchange_Commission](https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission)
+### Description
 
-[https://www.law.go.kr/lsInfoP.do?lsiSeq=252731#0000](https://www.law.go.kr/lsInfoP.do?lsiSeq=252731#0000)
+이 파일은 암호화폐와 블록체인 기술에 대한 다양한 규제와 법률을 다룹니다. 각국의 규제 정책과 관련 법령에 대해 설명합니다.
 
-# AML (Anti-Money Laundering)
+### Subtopics
 
-- a set of policies and practices to ensure that financial institutions and other regulated entities prevent, detect, and report financial crime and especially money laundering activities
+- KYC/AML
+- SEC Regulations
+- GDPR
+- FATF Guidelines
+- CFTC Regulations
+- Financial Action Task Force (FATF)
+- Regulation Technology (RegTech)
 
-# KYC (Know Your Customer)
+### References
 
-- guidelines and regulations in financial services require professionals to verify the identity, suitability, and risks involved with maintaining a [business relationship](https://en.wikipedia.org/wiki/Business_relationship_management) with a customer
+- [KYC/AML 설명](https://en.wikipedia.org/wiki/Know_your_customer)
+- [SEC Regulations 설명](https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission)
+- [GDPR 설명](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation)
+- [FATF Guidelines 설명](https://en.wikipedia.org/wiki/Financial_Action_Task_Force_on_Money_Laundering)
+- [CFTC Regulations 설명](https://en.wikipedia.org/wiki/Commodity_Futures_Trading_Commission)
+- [Financial Action Task Force (FATF) 설명](https://en.wikipedia.org/wiki/Financial_Action_Task_Force_on_Money_Laundering)
+- [Regulation Technology (RegTech) 설명](https://en.wikipedia.org/wiki/RegTech)
+- [https://en.wikipedia.org/wiki/Anti–money_laundering](https://en.w-kipedia.org/wiki/Anti%E2%80%93money_laundering)
+- [https://en.wikipedia.org/wiki/Know_your_customer](https://en.wiki-edia.org/wiki/Know_your_customer)
+- [https://en.wikipedia.org/wiki/Central_bank_digital_currency](http-://en.wikipedia.org/wiki/Central_bank_digital_currency)
+- [https://en.wikipedia.org/wiki/Commodity_Futures_Trading_Commissio-](https://en.wikipedia.org/wiki/Commodity_Futures_Trading_Commission)
+- [https://en.wikipedia.org/wiki/U.S.\_Securities_and_Exchange_Commi-sion](https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission)
+- [https://www.law.go.kr/lsInfoP.do?lsiSeq=252731#0000](https://www.-aw.go.kr/lsInfoP.do?lsiSeq=252731#0000)
 
-# CDBC (Central Bank Digital Currency)
+### Related Keywords
 
-- a digital currency issued by a central bank, rather than by a commercial bank
-
-# CFTC (Commodity Futures Trading Commission)
-
-- an independent agency of the US government that regulates the U.S. derivatives markets, which includes futures, swaps, and certain kinds of options
-
-# SEC (U.S. Securities and Exchange Commission)
-
-- an independent agency of the United States federal government to enforce the law against market manipulation
-
-# 가상자산이용자보호법
-
-- 가상자산 이용자 자산의 보호와 불공정거래행위 규제 등에 관한 사항을 정함으로써 가상자산 이용자의 권익을 보호하고 가상자산시장의 투명하고 건전한 거래질서를 확립하는 것을 목적으로 한다
+- [[Law]]
+- [[Compliance]]
+- [[Blockchain]]
+- [[Cryptocurrency]]
+- [[Finance]]
+- [[RegTech]]

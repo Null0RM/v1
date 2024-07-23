@@ -1,141 +1,65 @@
-1. `Troy` 발표 키워드 나열
-2. 연관 관계 정립
+---
+title: Ethereum
+description: 이더리움의 개념, 역사, 기술적 특징 및 작동 방식을 다룹니다.
+aliases: [ethereum, ETH, cryptocurrency]
+tags: [technology, blockchain, ethereum, cryptocurrency]
+date: 2024-07-22
+---
 
-What is Ethereum?
-○ Transaction-based state machine
-● Ethereum and EVM Basics
-○ Transaction, State, Block, Account, EVM…
-● Application of Ethereum
-○ Tokens, DeFi…
-● Consensus Mechanism of Ethereum
-○ Proof-of-Work
-○ Proof-of-Stake
-■ BFT
-■ Gasper
-● Future of Ethereum?
-○ Account Abstraction, Single Slot Finality…
+## Ethereum
 
-https://ethereum.org/en/what-is-ethereum/
+### Summary
 
-https://ethereum.org/en/developers/docs/intro-to-ethereum/
+`Ethereum`은 Vitalik Buterin이 2015년에 출시한 분산형 블록체인 플랫폼으로, 스마트 계약과 탈중앙화 애플리케이션(DApps)을 실행할 수 있습니다.
 
-# EVM (Ethereum Virtual Machine)
+### Description
 
-- 이더리움 네트워크 내 트랜잭션을 수행하기 위한 런타임 환경. 모든 노드가 EVM 위에서 동작하는 것은 아니지만, 모든 EVM은 노드 위에서 동작한다.
-- [https://en.wikipedia.org/wiki/Ethereum#Virtual_machine](https://en.wikipedia.org/wiki/Ethereum#Virtual_machine)
+`Ethereum`은 2015년에 Vitalik Buterin이 설계하고 개발한 분산형 블록체인 플랫폼입니다. Ethereum은 비트코인과 유사한 블록체인 기술을 사용하지만, 스마트 계약과 탈중앙화 애플리케이션(DApps)을 실행할 수 있는 기능을 추가로 제공합니다.
 
-# Opcode (Operation Code)
+Ethereum의 주요 기술적 특징은 다음과 같습니다:
 
-- 하드웨어에게 일련의 명령을 수행할 수 있도록 전달하는 명령 코드. 프로세서 아키텍처에 따라 차이가 있다. EVM은 이러한 차이가 발생하지 않도록 하여, 모든 컴퓨터가 동일한 결과를 계산할 수 있도록 보장한다.
-- [https://en.wikipedia.org/wiki/Opcode](https://en.wikipedia.org/wiki/Opcode)
+1. **트랜잭션 기반 상태 머신 (Transaction-based state machine)**: Ethereum은 트랜잭션에 의해 상태가 변하는 시스템입니다.
+2. **Ethereum Virtual Machine (EVM)**: 스마트 계약을 실행하는 가상 머신으로, 모든 Ethereum 노드에서 동일한 코드를 실행할 수 있도록 보장합니다.
+3. **스마트 계약 (Smart Contract)**: 코드로 작성된 계약 조건을 자동으로 실행합니다. 이는 Solidity 언어로 작성됩니다.
+4. **이더 (Ether, ETH)**: Ethereum 네트워크의 기본 암호화폐로, 스마트 계약 실행 및 트랜잭션 수수료를 지불하는 데 사용됩니다.
+5. **합의 메커니즘 (Consensus Mechanism)**: Ethereum은 초기에는 PoW를 사용했으나, Ethereum 2.0 업그레이드를 통해 PoS로 전환하고 있습니다.
 
-# EVM-compatible
+### Application of Ethereum
 
-- 어떤 대상이든 이더리움 네트워크와 동일하게 EVM 위에서 트랜잭션 수행이 가능하다면, 이를 EVM과 호환된다고 표현할 수 있다. 이더리움에서 파생되는 네트워크나 스마트 계약, DApp은 모두 EVM 호환성을 갖추어야만 정상적으로 동작한다.
+Ethereum은 다양한 응용 사례에서 사용됩니다:
 
-# Gas
+- **토큰 (Tokens)**: ERC-20, ERC-721, ERC-1155 등 다양한 토큰 표준을 지원합니다.
+- **탈중앙화 금융 (DeFi)**: 금융 서비스를 탈중앙화된 방식으로 제공합니다.
+- **대체 불가능한 토큰 (NFT)**: 디지털 자산의 소유권을 블록체인에 기록합니다.
 
-- 트랜잭션을 처리하기 위해 발신자가 이더리움 네트워크에 지불해야 하는 수수료. 높을수록 빠르게 처리될 가능성이 높다.
-- 가스를 절약하고 싶다면 ?
-- [https://en.wikipedia.org/wiki/Ethereum#Gas](https://en.wikipedia.org/wiki/Ethereum#Gas)
-- [https://ethereum.org/en/developers/docs/gas/](https://ethereum.org/en/developers/docs/gas/)
+### Consensus Mechanism of Ethereum
 
-# EOA (Externally Owned Account)
+Ethereum의 합의 메커니즘은 다음과 같습니다:
 
-- 개인 키로 암호화된 계정을 생성하고, 해당 키의 보유 여부를 통해 인증과 모든 권한에 대한 인가를 진행하는 계정 유형이다.
-- [https://ethereum.org/en/developers/docs/accounts/](https://ethereum.org/en/developers/docs/accounts/)
-- controlled by anyone with the private keys
+- **Proof-of-Work (PoW)**: 초기 합의 메커니즘으로, 채굴자가 복잡한 수학 문제를 해결하여 블록을 생성합니다.
+- **Proof-of-Stake (PoS)**: Ethereum 2.0 업그레이드를 통해 PoS로 전환하고 있으며, 이는 검증자가 자신의 지분을 바탕으로 블록을 생성하는 방식입니다.
+  - **BFT (Byzantine Fault Tolerance)**: PoS의 보안 메커니즘으로, 네트워크의 일부분이 악의적인 행위를 하더라도 시스템이 안전하게 동작하도록 합니다.
+  - **Gasper**: PoS에서 사용되는 합의 알고리즘으로, 블록 제안과 검증을 담당합니다.
 
-# CA (Contract Account)
+### Future of Ethereum
 
-- 스마트 계약을 통해 네트워크로 배포된 형태의 계정이다.
-- a smart contract deployed to the network, controlled by code
+Ethereum의 미래는 다음과 같은 발전 방향을 가지고 있습니다:
 
-# EIPs (Ethereum Improvement Proposals)
+- **Account Abstraction**: 사용자 계정을 단순화하고, 스마트 계약과의 상호 작용을 개선합니다.
+- **Single Slot Finality**: 블록의 최종성을 단일 슬롯에서 확보하여 네트워크의 효율성을 높입니다.
 
-- standardize and provide high-quality documentation for Ethereum itself and conventions built upon it
-- [https://github.com/ethereum/eips](https://github.com/ethereum/eips)
+### References
 
-# ERCs (Ethereum Request for Comments)
+- [Introduction to Ethereum](https://ethereum.org/en/what-is-ethereum/)
+- [Ethereum Whitepaper](https://ethereum.org/en/whitepaper/)
+- [Understanding Smart Contracts on Ethereum](https://ethereum.org/en/developers/docs/smart-contracts/)
+- [Ethereum 2.0 Upgrade](https://ethereum.org/en/eth2/)
 
-- standardize and provide high-quality documentation for the Ethereum application layer
-- [https://github.com/ethereum/ERCs](https://github.com/ethereum/ERCs)
+### Related Keywords
 
-# ERC-20
-
-- A standard interface for tokens
-- [https://docs.openzeppelin.com/contracts/2.x/erc20](https://docs.openzeppelin.com/contracts/2.x/erc20)
-- [https://ethereum.org/ko/developers/docs/standards/tokens/erc-20/](https://ethereum.org/ko/developers/docs/standards/tokens/erc-20/)
-- [https://eips.ethereum.org/EIPS/eip-20](https://eips.ethereum.org/EIPS/eip-20)
-
-# ERC-721
-
-- A standard interface for non-fungible tokens, also known as deeds
-- [https://ethereum.org/ko/developers/docs/standards/tokens/erc-721/](https://ethereum.org/ko/developers/docs/standards/tokens/erc-721/)
-- [https://docs.openzeppelin.com/contracts/2.x/api/token/erc721](https://docs.openzeppelin.com/contracts/2.x/api/token/erc721)
-
-# ERC-1155
-
-- A standard interface for contracts that manage multiple token types. A single deployed contract may include any combination of fungible tokens, non-fungible tokens or other configurations (e.g. semi-fungible tokens)
-- [https://docs.openzeppelin.com/contracts/3.x/erc1155](https://docs.openzeppelin.com/contracts/3.x/erc1155)
-- [https://ethereum.org/ko/developers/docs/standards/tokens/erc-1155/](https://ethereum.org/ko/developers/docs/standards/tokens/erc-1155/)
-
-# Shanghai Upgrade
-
-- hard fork upgrade in March 2023 was designed to give Ethereum cryptocurrency network users access to their staked ether (ETH) funds for the first time since The Merge, the update that transitioned the blockchain to proof-of-stake in 2022
-- [https://www.investopedia.com/what-is-the-ethereum-shanghai-upgrade-7099021](https://www.investopedia.com/what-is-the-ethereum-shanghai-upgrade-7099021)
-
-# Dencun Upgrade
-
-- adopt EIP-4844, commonly called proto-danksharding. This upgrade introduces type-3 transactions (blobs), bringing new opportunities and new complexity for Layer 2 networks to optimize how they settle to the base layer
-- [https://www.blocknative.com/ethereum-dencun-upgrade-countdown](https://www.blocknative.com/ethereum-dencun-upgrade-countdown)
-
-# 📃 Smart Contract
-
-- a program that runs on the Ethereum blockchain
-- a collection of code (its functions) and data (its state) that resides at a specific address on the Ethereum blockchain
-- Smart contracts are a type of Ethereum account. This means they have a balance and can be the target of transactions.
-  - However they're not controlled by a user, instead they are deployed to the network and run as programmed.
-- User accounts can then interact with a smart contract by submitting transactions that execute a function defined on the smart contract. Smart contracts can define rules, like a regular contract, and automatically enforce them via the code. Smart contracts cannot be deleted by default, and interactions with them are irreversible.
-
-## Properties
-
-- 관측가능성(observability) : 스마트 컨트랙트는 서로의 계약 이행 가능성을 관찰하거나 성과를 입증할 수 있어야 함
-- 검증가능성(verifiability) : 계약을 이행하거나 위반할 경우 계약 당사자들이 이를 알 수 있어야 함
-- 프라이버시(privacy) : 계약 내용은 계약에 필요한 당사자만 알 수 있어야 함
-- 강제 가능성(enforceability) : 계약이 이루어질 수 있도록 구속력이 있어야 함
-
-# Note
-
-A sequence of [block](https://ethereum.org/en/glossary/#block) , each linking to its predecessor all the way to the [genesis block](https://ethereum.org/en/glossary/#genesis-block) by referencing the hash of the previous block. The integrity of the blockchain is crypto-economically secured using a proof-of-stake-based consensus mechanism. [What is a blockchain?](https://ethereum.org/en/developers/docs/intro-to-ethereum/#what-is-a-blockchain)
-
-_(in Blockchain)_
-
-# Ethereum
-
-- Cryptocurrencies, such as bitcoin, **enable anyone to transfer money globally.** Ethereum does too, but it can also **run code that enables people to create apps and organizations.** It’s both resilient and flexible: any computer program can run on Ethereum.
-- Ethereum is a decentralized blockchain with **smart contract** functionality.
-
-![[Pasted image 20240707165445.png]]
-
-**특징 요약**
-
-1. 살얼음판: 시스템 규율 외에 모든 것이 자율
-2. 철저한 계약 기반: 알면 웃고, 모르면 당한다
-3. Immutable: 배포 당시의 환경이 유지된다.
-
-[https://ethereum.org/en/learn/](https://ethereum.org/en/learn/)
-
-[https://en.wikipedia.org/wiki/Ethereum](https://en.wikipedia.org/wiki/Ethereum)
-
-# The Merge
-
-The Merge 변천사
-
-1. 비트코인 위에 프로그램을 실행시킬 수 있도록 하자 제안했지만 거절 당함
-2. 그렇게 PoW 기반의 Ethereum으로 따로 만들기 시작
-3. 추가로 검증 차원에서 별도로 Beacon Chain을 가동
-4. PoW의 보상 시스템보다, PoS의 처벌 시스템이 보안에 더 유리하다고 생각
-5. 당시 사용하던 PoW 네트워크는 (Transaction) Execution Layer로 사용하고, Beacon Chain은 Consensus Layer로 사용
-6. Execution 레이어는 Paris, Consensus 레이어는 Bellatrix 버전에서 “The Merge”를 기점으로 PoS 전환 (두 네트워크는 Engine API 스펙에 맞춰 통신)
-7. 당시 Eth 1, Eth 2 등의 용어가 있었지만 현재는 `Ethereum`으로 통합
+- [[Blockchain]]
+- [[Smart Contract]]
+- [[DeFi]]
+- [[NFT]]
+- [[DAO]]
+- [[Ethereum 2.0]]
