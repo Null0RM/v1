@@ -1,18 +1,37 @@
-# Mining _(in Consensus)_
+---
+title: Mining
+description: 블록체인 네트워크에서 채굴(Mining)의 개념, 역할, 및 중요성을 다룹니다.
+aliases: [mining, blockchain mining, cryptocurrency mining]
+tags: [technology, blockchain, mining, cryptocurrency]
+date: 2024-07-22
+---
 
-| adds new blocks to the block chain, making transaction history hard to modify
+## Mining
 
-Mining today takes on two forms:
+### Summary
 
-Solo mining, where the miner attempts to generate new blocks on his own, with the proceeds from the block reward and transaction fees going entirely to himself, allowing him to receive large payments with a higher variance (longer time between payments)
+`Mining`은 블록체인 네트워크에서 새로운 블록을 생성하고 검증하는 과정입니다.
 
-Pooled mining, where the miner pools resources with other miners to find blocks more often, with the proceeds being shared among the pool miners in rough correlation to the amount of hashing power they each contributed, allowing the miner to receive small payments with a lower variance (shorter time between payments).
-https://developer.bitcoin.org/devguide/mining.html?highlight=mining#mining
+### Description
 
-The process of repeatedly hashing a block header while incrementing a https://ethereum.org/en/glossary/#nonce until the result contains an arbitrary number of leading binary zeros. This is the process by which new https://ethereum.org/en/glossary/#block are added to a proof-of-work blockchain. This was how Ethereum was secured before it moved to proof-of-stake.
+`Mining`은 블록체인 네트워크에서 중요한 역할을 합니다. 채굴자는 블록을 생성하고 검증하는 역할을 하며, 이는 네트워크의 보안을 강화하고 트랜잭션의 순서를 결정하는 데 중요한 역할을 합니다. Mining의 주요 특징은 다음과 같습니다:
 
-a transaction record process with bitcoins to blockchain – the public database of all the operations with Bitcoin, which is responsible for the transaction confirmation. Network nodes use blockchain to differ the real transactions from the attempt to spend the same facilities twice. The main mining objective is reaching a consensus between network nodes on which transactions consider legitimate.
-https://bitcoinwiki.org/wiki/mining
+1. **블록 생성**: 채굴자는 새로운 블록을 생성하기 위해 복잡한 수학 문제를 해결합니다. 이는 네트워크의 무결성을 유지하는 데 중요한 역할을 합니다.
+2. **트랜잭션 검증**: 채굴자는 블록에 포함된 트랜잭션을 검증하여, 트랜잭션의 무결성을 보장합니다. 이를 통해 네트워크의 신뢰성을 유지할 수 있습니다.
+3. **보상**: 블록을 성공적으로 생성한 채굴자는 블록 보상과 트랜잭션 수수료를 받습니다. 이는 채굴자가 네트워크에 계속 참여하도록 유도하는 인센티브 역할을 합니다.
 
-The process of repeatedly hashing a block header while incrementing a nonce until the result contains an arbitrary number of leading binary zeros. This is the process by which new blocks are added to a proof-of-work blockchain. This was how Ethereum was secured before it moved to proof-of-stake.
-https://ethereum.org/en/glossary/#mining
+Mining은 블록체인 네트워크의 보안을 유지하고, 새로운 블록을 생성하며, 트랜잭션을 검증하는 중요한 과정을 포함합니다. 이를 통해 블록체인 네트워크의 무결성과 안정성을 유지할 수 있습니다.
+
+### References
+
+- [Mining 설명](<https://en.wikipedia.org/wiki/Mining_(cryptocurrency)>)
+- [Mining의 작동 원리](https://example.org/mining-explanation)
+- [Bitcoin의 Mining](https://bitcoin.org/mining)
+- [Ethereum의 Mining](https://ethereum.org/mining)
+
+### Related Keywords
+
+- [[Proof of Work]]
+- [[Blockchain]]
+- [[Security]]
+- [[Cryptocurrency]]

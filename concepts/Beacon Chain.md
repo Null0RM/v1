@@ -17,6 +17,7 @@ original clients from the exe
 gossiping and executing transactions, and managing Ethereum's state
 하는 데, 통신을 위해 Engine API를 사용한다고 한다.
 
+
 ## Engine API
 
 https://hackmd.io/@danielrachi/engine_api
@@ -317,5 +318,3 @@ Shanghai
 |0xFF|SELFDESTRUCT|System||
 https://github.com/ethereum/execution-specs/blob/master/lists/evm/pending-opcodes.md
 https://github.com/ethereum/execution-specs/blob/master/lists/evm/proposed-opcodes.md
-
-

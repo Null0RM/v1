@@ -1,1 +1,0 @@
-https://cosmos.network/
